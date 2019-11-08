@@ -1,0 +1,14 @@
+.box{
+	margin: 0 auto;
+	width: 75vw;
+	height: 80vh;
+	background-color: rgba(175,175,175,0.8)
+}
+.feld{
+	height: 66vh;
+}
+.feld2{
+	height: 66vh;
+	background-image: url("/assets/img/vienna2.jpg");
+	background-size: cover;
+}

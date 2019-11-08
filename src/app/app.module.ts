@@ -15,6 +15,13 @@ import { AngularFireDatabaseModule } from "angularfire2/database";
 import { environment } from "../environments/environment";
 import { ReactiveFormsModule } from "@angular/forms";
 import { TravelService } from "./shared/travel.service";
+import { LucernComponent } from './lucern/lucern.component';
+import { MunichComponent } from './munich/munich.component';
+import { ViennaComponent } from './vienna/vienna.component';
+import { KeniaComponent } from './kenia/kenia.component';
+import { ZurichComponent } from './zurich/zurich.component';
+import { BangkokComponent } from './bangkok/bangkok.component';
+import { ForgetComponent } from './forget/forget.component';
 
 
 @NgModule({
@@ -25,7 +32,14 @@ import { TravelService } from "./shared/travel.service";
     HomeComponent,
     BlogComponent,
     TravelComponent,
-    ListComponent
+    ListComponent,
+    LucernComponent,
+    MunichComponent,
+    ViennaComponent,
+    KeniaComponent,
+    ZurichComponent,
+    BangkokComponent,
+    ForgetComponent
   ],
   imports: [
     BrowserModule,

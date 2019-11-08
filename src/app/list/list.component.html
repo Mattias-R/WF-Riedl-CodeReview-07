@@ -1,17 +1,17 @@
 <table class="table table-sm">
         <thead>
-                <th>Name</th>
-                <th>Country</th>
-                <th>City</th>
-                <th>Conclusion</th>
+                <th class="col-3">Name</th>
+                <th class="col-3">Country</th>
+                <th class="col-3">City</th>
+                <th class="col-3">Conclusion</th>
         </thead>
         <ng-container *ngFor="let customer of customerArray">
                 <tr class="table-dark">
-                        <td>{{customer.fullName}}</td>
-                        <td>{{customer.email}}</td>
-                        <td>{{customer.mobile}}</td>
-                        <td>{{customer.location}}</td>
-                        <td>
+                        <td class="col-1">{{customer.fullName}}</td>
+                        <td class="col-4">{{customer.email}}</td>
+                        <td class="col-2">{{customer.mobile}}</td>
+                        <td class="col-2">{{customer.location}}</td>
+                        <td class="col-2">
                                 
 			<button class="btn btn-info" (click)="TravelService.populateForm(customer)" >Edit</button>
                                <button class="btn btn-danger" (click)="onDelete(customer.$key)" >Delete</button>
