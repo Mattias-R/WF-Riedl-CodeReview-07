@@ -1,0 +1,64 @@
+.blog{
+	height: 40vh;
+	border: 1px solid black;
+}
+.lucern{
+	background-image: url("/assets/img/lucern.jpg");
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	background-repeat: no-repeat;
+}
+.munich{
+	background-image: url("/assets/img/munich.jpg");
+		background-size: 100%;
+	display: flex;
+	align-items: flex-end;
+	background-position: 50%;
+	background-repeat: no-repeat;
+background-size: cover;
+}
+.vienna{
+		background-image: url("/assets/img/vienna.jpg");
+		background-size: 100%;
+	display: flex;
+	align-items: flex-end;
+	background-position: 10%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.kenia{
+		background-image: url("/assets/img/kenia.jpg");
+		background-size: 100%;
+	display: flex;
+	align-items: flex-end;
+
+background-size: cover;
+background-repeat: no-repeat;
+}
+.zurich{
+		background-image: url("/assets/img/zurich.jpg");
+		background-size: 100%;
+	display: flex;
+	align-items: flex-end;
+background-position: 10%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bangkok{
+	background-image: url("/assets/img/bangkok.jpeg");
+	background-size: 140%;
+	display: flex;
+	align-items: flex-end;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welle{
+		background-image: url("/assets/img/welle.jpg");
+		background-size: 100%;
+	display: flex;
+	align-items: flex-end;
+background-position: 10%;
+background-repeat: no-repeat;
+background-size: cover;
+}
